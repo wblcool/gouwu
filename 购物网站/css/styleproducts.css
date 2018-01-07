@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+/*顶部1*/
+.head{width:100%;}
+.topHead{width:1000px;height:32px;margin: 0 auto;line-height:32px;}
+.topHeadL{float:left;height:32px;}
+.topHeadL h3{font-size:12px;background:url(../images/icons/sc.gif) left center no-repeat;text-indent:17px;}
+.topHeadR{float:right;height:32px;}
+.topHead a:hover{color:red;}
+/*顶部2*/
+.middleHead{background-color:#1D7AD9;width:100%;}
+.middleH{height:85px;width:1000px;margin: 0 auto;}
+.middleH img{margin: 12px 0 0 0;float:left;width:120px;height:65px;}
+.middleH .BOX {width:430px;padding-left:185px;padding-top:23px;float:left;}
+.middleH .box{width:360px;height:35px;text-indent:12px;font-size:16px;float:left;}
+.middleH .search{width:70px;height:35px;color:white;background-color:#FF8C00;font-size:14px;text-align:center;float:right;}
+.middleH .shopbox{width:145px;height:35px;line-height:35px;color:white;font-size:14px;float:right;background-color:#FF8800;margin-top:23px;margin-right:70px;}
+.middleH  .shop{float:left;width:87px;border-right:1px solid #E27A00;text-indent:40px;background:url(../images/icons/shop.gif) 10px center no-repeat; }
+.middleH .num{float:left;width:27px;padding-right:28px;border-left:1px solid #FF9C01;background:url(../images/icons/shop2.gif) 33px center no-repeat;}
+.middleH  .shop a{color:white;}
+.middleH .num a {color:white;float:right;}
+/*顶部3*/
+.footerHead{background-color:#1369C0;heigth:35px;width:100%;clear:both;}
+.footerH{height:35px;width:1000px;margin: 0 auto;}
+.footerH .H3{width:152px;background:url(../images/icons/xiala.gif) 145px center no-repeat;line-height:35px;float:left;color:white;padding-left:38px;font-family:"微软雅黑";}
+.footerH a{color:white;font:14px "微软雅黑"}
+.footerH li{float:left;width:100px;height:35px;line-height:35px;text-align:center;}
+.footerH li:hover{background-color:#4593FD;}
+/*列表部分*/
+/*左列表*/
+.shopList{width:1000px;margin:0 auto;position:relative;}
+.leftshopList{width:190px;float:left;background-color:#F3F3F3;}
+.leftshopList h3{border:1px solid #CDCDCD;text-indent:24px;height:32px;line-height:32px;width:100%;}
+.leftshopList dl{padding:2px 20px;border-bottom:1px dotted #CDCDCD;border-left:1px solid #CDCDCD;border-right:1px solid #CDCDCD;float:left;width:149px;}
+.leftshopList dt{font:14px/24px "微软雅黑";font-weight:600;line-height:28px;}
+.Bottom{border-bottom:1px solid #CDCDCD;}
+.leftshopList dd{font:12px/20px  "微软雅黑";}
+.leftshopList dd a{width:50%;float:left;line-height:25px;}
+.leftshopList dd a:hover{color:#F3A536;}
+
+
+
+/*banner图*/
+.banner{float:left;width:800px;height:340px;position:relative;overflow:hidden;}
+.banner .banner_img img{width:800px;height:340px;postion:absolute;left:0;top:0;}
+.imgnum{position:absolute;left:0;top:320px;text-align:center;width:100%;padding-bottom:15px;}
+.imgnum a{display:inline-block;background-color:white;width:25px;height:8px;margin-right:12px;}
+.imgnum a:hover{background-color:#FF7700}
+/*商品清单*/
+.shopRecom{width:770px;float:left;padding:10px 15px;}
+.shopRecom .shopBorder>div{float:left;width:50%;height:13px;overflow:hidden;font-size:13px;font-family:"微软雅黑";line-height:13px;}
+.shopRecom .shopBorder>div ul li{height:13px;}
+.shopRecom .shopBorder>div ul li a{color:red;}
+.shopRecom .shopBorder>div ul li a:hover{color:#FFFFFF;}
+.shopBorder{background-color:#FFCC33;width:700px;height:13px;px;border-radius:10px;padding:18px 35px;}
+.shopProducts{float:right;width:802px;padding-left:8px;}
+.shopProducts h3{font-size:16px;line-height:24px;}
+.shopImg{width:170px;padding-left:15px;padding-right:15px;height:300px;font-size:13px;float:left;border-top:2px solid #CCCCCC;}
+.shopImg span{background:url(../images/icons/xingxing.gif) left bottom no-repeat; display:inline-block;width:16px;height:12px;}
+.shopImg .rmb{font:14px "微软雅黑";color:#D4105A;line-height:20px;margin-top:16px;}
+.intro{height:50px;margin-top:5px;}
+.shopIMG{border-top:2px solid #096DBA;}
+/*底部*/
+.footer{width:100%;height:122px;background-color:#D4D4D4;clear:both;text-align:center;line-height:24px;padding: 50px 0;}
+.footer i{font-style:normal;margin:0 5px;}
+.footer a:hover{color:#F90;}
+

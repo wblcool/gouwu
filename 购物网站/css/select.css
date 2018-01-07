@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+/*主体部分*/
+/*左边部分*/
+/*左边部分*/
+.Body{margin-top:16px;width:100%;}
+.middlecontent{width:1000px;margin:0 auto;}
+.middleLeft{width:188px;float:left;font-family:"微软雅黑";border:1px solid #D7D7D7;}
+/*左上部分*/
+.lefthead h3{font-size:16px;line-height:33px;width:188px;border-bottom:1px solid #D7D7D7;text-align:center;}
+.lefthead dl{padding:10px 0 2px 10px;border-bottom:1px dotted #D7D7D7}
+.lefthead dl dt{font-size:14px;font-weight:600;line-height:18px;}
+.lefthead dl dd{padding-left:10px;line-height:24px;font-size:12px;}
+.lefthead dl dd a:hover{color:red}
+/*左下部分*/
+.leftbottom{border-top:1px solid #D7D7D7;width:188px;margin-top:-1px;}
+.leftbottom .produces{height:70px;width:174px;padding-top:8px;padding-right:14px;}
+.produces .leftImg{float:left;width:83px;text-align:center;}
+.rightText{float:left;width:91px;}
+.rightText .Text a{font-size:12px;line-height:16px;color:#A5A5C2;}
+/*右边部分*/
+/*右上部分*/
+.middleRight{width:794px;padding-left:15px;font-family:"微软雅黑";float:right;}
+.middleRight dl{width:794px;font-size:12px;line-height:32px;float:left;}
+.middleRight dl dt{float:left;width:75px;padding-right:40px;text-align:right;}
+.middleRight .firstdl  dd{width:679px;float:left;}
+.middleRight dl dt a{color:#A5A5C2;}
+.middleRight dl dd a{color:#1D7AD9;}
+.middleRight dl dd a:hover{text-decoration:underline;}
+.firstdl {border-bottom:1px solid #D7D7D7;padding-top:3px;}
+.firstdl dd a{margin-right:110px;}
+.normoldl {border-bottom:1px dotted #D7D7D7;}
+.normoldl .limit{float:left;width:56px;}
+.middleRight .normoldl .limit a{color:#FFFFFF;background-color:#1D7AD9;margin-right:26px;padding:2px}
+.normoldl .normol{width:500px;float:left;}
+.normol ul{display:none;}
+.normoldl .normol   a{float:left;width:124px;}
+.normoldl span{float:left;background:url(../images/icons/xiala2.gif) right center no-repeat;width:42px;}
+.lastdl{border-bottom:1px solid #D7D7D7;float:left;}
+.lastdl dd{position:relative;}
+.lastdl dd>a{height:22px;border:1px solid #D7D7D7;padding-left:9px;display:inline-block;margin:6px 10px 6px 0;line-height:22px;}
+.lastdl dd ul a{padding-left:9px;padding-right:15px;}
+.lastdl dd .ul01 {z-index:10;position:absolute;left:115px;top:29px;border:1px solid #D7D7D7;background-color:white;display:none;}
+.lastdl dd .ul02{position:absolute;left:223px;top:29px;border:1px solid #D7D7D7;background-color:white;display:none;}
+.lastdl dd>a>span{background:url(../images/icons/xiala2.gif) right center no-repeat;width:15px;height:15px;display:inline-block;margin:0 6px 0 6px;vertical-align:middle;}
+/*右下部分*/
+.hr_13{height:15px;float:left;width:100%;}
+/*右下送货地址栏*/
+.address{height:34px;width:100%;float:left;line-height:34px;background-color:#F5F5F5;border:1px solid #D7D7D7;text-indent:10px;}
+.address .address_left{float:left;position:relative;}
+.address .address_left .dress{text-indent:10px;display:inline-block;height:22px;background-color:#FFFFFF;border:1px solid #D7D7D7;vertical-align:baseline;line-height:22px;}
+.address .address_left .dress span{display:inline-block;background:url(../images/icons/3.%E7%AD%9B%E9%80%89%E9%A1%B5_r2_c2.gif)  center center no-repeat; width:12px;height:9px;margin-left:10px;margin-right:10px;}
+.address .address_right{float:right;padding-right:83px;}
+.address .address_right input{vertical-align:middle;}
+.address .address_right em{font-style:normal;color:red;}
+.address .address_left ul{position:absolute;left:35px;;top:28px;width:112px;border:1px solid #D7D7D7;background-color:white;display:none;}
+.address .address_left ul a:hover{text-decoration:underline;}
+/*右下商品列表*/
+.shopProducts{float:left;width:740px;margin-left:28px;margin-right:28px;}
+
+.shopImg{width:225px;padding-left:20px;font-size:13px;float:left;height:360px;}
+.shopImg .rmb{font:14px "微软雅黑";color:#D4105A;line-height:20px;margin-top:16px;}
+.shopImg p a em{font-style:normal;font-size:13px;color:#1D7AD9;}
+.intro{height:40px;margin-top:5px;text-indent:5px;}
+.shopcar{display:block;width:90px;height:24px;line-height:24px;color:#1D7AD9;border:1px solid #C3D5E7;margin-top:10px;}
+.shopcar span{background:url(../images/icons/shop3.gif) center center no-repeat;width:17px;height:15px;display:inline-block;vertical-align:text-bottom;padding-left:4px;}
+.page{height:30px;float:left;width:inherit;}
+.return{text-align:right;height:20px;clear:both;padding-right:500px;}
+.return a:hover{text-decoration:underline;}
+.page{width:100%;height:28px;border-bottom:1px solid #D9D9D9;padding:20px 0 20px 60px;}
+.page a{height:26px;border:1px solid #D9D9D9;padding:0 8px;line-height:26px;margin-right:5px;}
+.page input{text-align:center;border:1px solid #D9D9D9;height:26px;padding:0 8px;cursor:pointer;}
+.page .pagenum{width:18px;}
+.page span{padding:0 14px;}
+.page .page_active{background-color:#2266BB;color:white;}

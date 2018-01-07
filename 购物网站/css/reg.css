@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+/*顶部1*/
+.head{width:100%;}
+.topHead{width:1000px;height:32px;margin: 0 auto;line-height:32px;}
+.topHeadL{float:left;height:32px;}
+.topHeadL h3{font-size:12px;background:url(../images/icons/sc.gif) left center no-repeat;text-indent:17px;}
+.topHeadR{float:right;height:32px;}
+.topHead a:hover{color:red;}
+/*顶部2*/
+.middleHead{background-color:#1D7AD9;width:100%;margin-bottom:12px;}
+.middleH{height:85px;width:740px;margin: 0 auto;}
+.middleH img{margin: 12px 0 0 0;float:left;width:120px;height:65px;}
+
+.middleHead h3{float:left;height:85px;line-height:85px;font-size:24px;color:#FFFFFF;padding-left:20px;}
+/*登录内容*/
+.reg{width:490px;border:1px solid #E8E8E8;margin:50px auto;padding:40px 64px 0  80px;font-size:14px;position:relative;}
+.reg .reg_content{padding-bottom:28px;}
+.reg .reg_content ul li i{color:red;margin-right:4px;}
+.reg .reg_content li{height:70px;line-height:70px;color:#999999;}
+.reg .reg_content .reg_text{text-align:right;width:100px;float:left;}
+.reg .reg_content .reg_input{float:left;width:270px;}
+.reg .reg_content .reg_input input{width:268px;height:32px;border:1px solid #CCCCCC;font-size:14px;padding-left:4px;margin-top:18px;margin-left:16px;}
+
+
+.reg .reg_content .log_name{margin-bottom:12px;background:url(../images/jpgs/%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C/inputname.gif) right center no-repeat;}
+.reg .reg_content .pass{background:url(../images/jpgs/%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C/loginpassword.gif) right center no-repeat;}
+.reg .reg_select{font-size:12px;clear:both;text-align:center;}
+.reg .reg_select input{vertical-align:middle;background-color:transparent;margin-right:3px;}
+.reg_select a{color:#005AA0;}
+.reg .reg_select a:hover{text-decoration:underline;}
+
+.reg .reg_select .reg_btn{width:309px;height:35px;background:url(../images/jpgs/%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C/submit.gif) center center  no-repeat   ;margin:32px 0 35px 0;cursor:pointer;}
